@@ -5,7 +5,10 @@ int main(void) {
 
   printf("Teste de commit 1");
 
-  for(int i=0; i<10 ; i++)
+  int i=0;
+  while(i<10){
 	printf("\nGIT\n");
+	i++;
+  }
   return 0;
 }
