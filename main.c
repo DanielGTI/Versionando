@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include "funcao.h"
 
 int main(void) {
   printf("Hello World\n");
@@ -7,8 +9,12 @@ int main(void) {
 
   int i=0;
   while(i<10){
-	printf("\nGIT\n");
+	printf("\nGIT\t");
 	i++;
+
+	printf("Soma = %d", somar(rand()%10, i));
   }
+
+
   return 0;
 }
